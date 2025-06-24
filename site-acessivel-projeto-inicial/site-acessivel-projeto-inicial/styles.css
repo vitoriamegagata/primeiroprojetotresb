@@ -140,3 +140,32 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+body.alto-contraste {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+body.alto-contraste a,
+body.alto-contraste .nav-link,
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste p,
+body.alto-contraste label {
+    color: #FFFF00 !important; /* amarelo para melhor contraste */
+    background-color: transparent !important;
+}
+
+body.alto-contraste .formulario {
+    background-color: #222 !important;
+    border: 2px solid #FFF;
+}
+
+body.alto-contraste .form-control {
+    background-color: #111 !important;
+    color: #FFF !important;
+}
+
+body.alto-contraste button {
+    background-color: #FFF !important;
+    color: #000 !important;
+}
